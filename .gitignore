@@ -1,0 +1,5 @@
+Pods/
+SecretVoiceDiary.xcworkspace/
+SecretVoiceDiary.xcodeproj/xcuserdata/
+SecretVoiceDiary.xcodeproj/project.xcworkspace/xcuserdata/
+Podfile.lock

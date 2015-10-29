@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306996B41BE1E7AB00AB96C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306996B31BE1E7AB00AB96C8 /* AppDelegate.swift */; };
+		306996B61BE1E7AB00AB96C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306996B51BE1E7AB00AB96C8 /* ViewController.swift */; };
+		306996B91BE1E7AB00AB96C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306996B71BE1E7AB00AB96C8 /* Main.storyboard */; };
+		306996BB1BE1E7AB00AB96C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306996BA1BE1E7AB00AB96C8 /* Assets.xcassets */; };
+		306996BE1BE1E7AB00AB96C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306996BC1BE1E7AB00AB96C8 /* LaunchScreen.storyboard */; };
+		306996C91BE1E7AC00AB96C8 /* SecretVoiceDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306996C81BE1E7AC00AB96C8 /* SecretVoiceDiaryTests.swift */; };
+		306996D41BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306996D31BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests.swift */; };
+		306996D91BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 306996D81BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App.app */; };
+		306996DF1BE1E7AC00AB96C8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306996DD1BE1E7AC00AB96C8 /* Interface.storyboard */; };
+		306996E11BE1E7AC00AB96C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306996E01BE1E7AC00AB96C8 /* Assets.xcassets */; };
+		306996E81BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 306996E71BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		306996EF1BE1E7AC00AB96C8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306996EE1BE1E7AC00AB96C8 /* InterfaceController.swift */; };
+		306996F11BE1E7AC00AB96C8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306996F01BE1E7AC00AB96C8 /* ExtensionDelegate.swift */; };
+		306996F31BE1E7AC00AB96C8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306996F21BE1E7AC00AB96C8 /* NotificationController.swift */; };
+		306996F51BE1E7AC00AB96C8 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306996F41BE1E7AC00AB96C8 /* GlanceController.swift */; };
+		306996F71BE1E7AC00AB96C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306996F61BE1E7AC00AB96C8 /* Assets.xcassets */; };
+		3069970D1BE1EEBC00AB96C8 /* TableRowObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069970C1BE1EEBC00AB96C8 /* TableRowObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		306996C51BE1E7AC00AB96C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306996A81BE1E7AB00AB96C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306996AF1BE1E7AB00AB96C8;
+			remoteInfo = SecretVoiceDiary;
+		};
+		306996D01BE1E7AC00AB96C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306996A81BE1E7AB00AB96C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306996AF1BE1E7AB00AB96C8;
+			remoteInfo = SecretVoiceDiary;
+		};
+		306996DA1BE1E7AC00AB96C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306996A81BE1E7AB00AB96C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306996D71BE1E7AC00AB96C8;
+			remoteInfo = "SecretVoiceDiary WatchKit App";
+		};
+		306996E91BE1E7AC00AB96C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306996A81BE1E7AB00AB96C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306996E61BE1E7AC00AB96C8;
+			remoteInfo = "SecretVoiceDiary WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		306996FE1BE1E7AC00AB96C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				306996E81BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306997021BE1E7AC00AB96C8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				306996D91BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		306996B01BE1E7AB00AB96C8 /* SecretVoiceDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretVoiceDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306996B31BE1E7AB00AB96C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		306996B51BE1E7AB00AB96C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		306996B81BE1E7AB00AB96C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306996BA1BE1E7AB00AB96C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306996BD1BE1E7AB00AB96C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		306996BF1BE1E7AB00AB96C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306996C41BE1E7AC00AB96C8 /* SecretVoiceDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretVoiceDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306996C81BE1E7AC00AB96C8 /* SecretVoiceDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretVoiceDiaryTests.swift; sourceTree = "<group>"; };
+		306996CA1BE1E7AC00AB96C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306996CF1BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretVoiceDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306996D31BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretVoiceDiaryUITests.swift; sourceTree = "<group>"; };
+		306996D51BE1E7AC00AB96C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306996D81BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SecretVoiceDiary WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306996DE1BE1E7AC00AB96C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		306996E01BE1E7AC00AB96C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306996E21BE1E7AC00AB96C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306996E71BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SecretVoiceDiary WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306996ED1BE1E7AC00AB96C8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		306996EE1BE1E7AC00AB96C8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		306996F01BE1E7AC00AB96C8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		306996F21BE1E7AC00AB96C8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		306996F41BE1E7AC00AB96C8 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		306996F61BE1E7AC00AB96C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306996F81BE1E7AC00AB96C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3069970C1BE1EEBC00AB96C8 /* TableRowObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306996AD1BE1E7AB00AB96C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996C11BE1E7AC00AB96C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996CC1BE1E7AC00AB96C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996E41BE1E7AC00AB96C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306996A71BE1E7AB00AB96C8 = {
+			isa = PBXGroup;
+			children = (
+				306996B21BE1E7AB00AB96C8 /* SecretVoiceDiary */,
+				306996C71BE1E7AC00AB96C8 /* SecretVoiceDiaryTests */,
+				306996D21BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests */,
+				306996DC1BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App */,
+				306996EB1BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension */,
+				306996B11BE1E7AB00AB96C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306996B11BE1E7AB00AB96C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306996B01BE1E7AB00AB96C8 /* SecretVoiceDiary.app */,
+				306996C41BE1E7AC00AB96C8 /* SecretVoiceDiaryTests.xctest */,
+				306996CF1BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests.xctest */,
+				306996D81BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App.app */,
+				306996E71BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306996B21BE1E7AB00AB96C8 /* SecretVoiceDiary */ = {
+			isa = PBXGroup;
+			children = (
+				306996B31BE1E7AB00AB96C8 /* AppDelegate.swift */,
+				306996B51BE1E7AB00AB96C8 /* ViewController.swift */,
+				306996B71BE1E7AB00AB96C8 /* Main.storyboard */,
+				306996BA1BE1E7AB00AB96C8 /* Assets.xcassets */,
+				306996BC1BE1E7AB00AB96C8 /* LaunchScreen.storyboard */,
+				306996BF1BE1E7AB00AB96C8 /* Info.plist */,
+			);
+			path = SecretVoiceDiary;
+			sourceTree = "<group>";
+		};
+		306996C71BE1E7AC00AB96C8 /* SecretVoiceDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				306996C81BE1E7AC00AB96C8 /* SecretVoiceDiaryTests.swift */,
+				306996CA1BE1E7AC00AB96C8 /* Info.plist */,
+			);
+			path = SecretVoiceDiaryTests;
+			sourceTree = "<group>";
+		};
+		306996D21BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				306996D31BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests.swift */,
+				306996D51BE1E7AC00AB96C8 /* Info.plist */,
+			);
+			path = SecretVoiceDiaryUITests;
+			sourceTree = "<group>";
+		};
+		306996DC1BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				306996DD1BE1E7AC00AB96C8 /* Interface.storyboard */,
+				306996E01BE1E7AC00AB96C8 /* Assets.xcassets */,
+				306996E21BE1E7AC00AB96C8 /* Info.plist */,
+			);
+			path = "SecretVoiceDiary WatchKit App";
+			sourceTree = "<group>";
+		};
+		306996EB1BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				306996EE1BE1E7AC00AB96C8 /* InterfaceController.swift */,
+				306996F01BE1E7AC00AB96C8 /* ExtensionDelegate.swift */,
+				306996F21BE1E7AC00AB96C8 /* NotificationController.swift */,
+				306996F41BE1E7AC00AB96C8 /* GlanceController.swift */,
+				306996F61BE1E7AC00AB96C8 /* Assets.xcassets */,
+				306996F81BE1E7AC00AB96C8 /* Info.plist */,
+				306996EC1BE1E7AC00AB96C8 /* Supporting Files */,
+				3069970C1BE1EEBC00AB96C8 /* TableRowObject.swift */,
+			);
+			path = "SecretVoiceDiary WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		306996EC1BE1E7AC00AB96C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306996ED1BE1E7AC00AB96C8 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306996AF1BE1E7AB00AB96C8 /* SecretVoiceDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306997031BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiary" */;
+			buildPhases = (
+				306996AC1BE1E7AB00AB96C8 /* Sources */,
+				306996AD1BE1E7AB00AB96C8 /* Frameworks */,
+				306996AE1BE1E7AB00AB96C8 /* Resources */,
+				306997021BE1E7AC00AB96C8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306996DB1BE1E7AC00AB96C8 /* PBXTargetDependency */,
+			);
+			name = SecretVoiceDiary;
+			productName = SecretVoiceDiary;
+			productReference = 306996B01BE1E7AB00AB96C8 /* SecretVoiceDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306996C31BE1E7AC00AB96C8 /* SecretVoiceDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306997061BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiaryTests" */;
+			buildPhases = (
+				306996C01BE1E7AC00AB96C8 /* Sources */,
+				306996C11BE1E7AC00AB96C8 /* Frameworks */,
+				306996C21BE1E7AC00AB96C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306996C61BE1E7AC00AB96C8 /* PBXTargetDependency */,
+			);
+			name = SecretVoiceDiaryTests;
+			productName = SecretVoiceDiaryTests;
+			productReference = 306996C41BE1E7AC00AB96C8 /* SecretVoiceDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		306996CE1BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306997091BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiaryUITests" */;
+			buildPhases = (
+				306996CB1BE1E7AC00AB96C8 /* Sources */,
+				306996CC1BE1E7AC00AB96C8 /* Frameworks */,
+				306996CD1BE1E7AC00AB96C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306996D11BE1E7AC00AB96C8 /* PBXTargetDependency */,
+			);
+			name = SecretVoiceDiaryUITests;
+			productName = SecretVoiceDiaryUITests;
+			productReference = 306996CF1BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		306996D71BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306996FF1BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiary WatchKit App" */;
+			buildPhases = (
+				306996D61BE1E7AC00AB96C8 /* Resources */,
+				306996FE1BE1E7AC00AB96C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306996EA1BE1E7AC00AB96C8 /* PBXTargetDependency */,
+			);
+			name = "SecretVoiceDiary WatchKit App";
+			productName = "SecretVoiceDiary WatchKit App";
+			productReference = 306996D81BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		306996E61BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306996FB1BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiary WatchKit Extension" */;
+			buildPhases = (
+				306996E31BE1E7AC00AB96C8 /* Sources */,
+				306996E41BE1E7AC00AB96C8 /* Frameworks */,
+				306996E51BE1E7AC00AB96C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SecretVoiceDiary WatchKit Extension";
+			productName = "SecretVoiceDiary WatchKit Extension";
+			productReference = 306996E71BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306996A81BE1E7AB00AB96C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tacademy;
+				TargetAttributes = {
+					306996AF1BE1E7AB00AB96C8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = JZ7S8TJ4CT;
+					};
+					306996C31BE1E7AC00AB96C8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 306996AF1BE1E7AB00AB96C8;
+					};
+					306996CE1BE1E7AC00AB96C8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 306996AF1BE1E7AB00AB96C8;
+					};
+					306996D71BE1E7AC00AB96C8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = JZ7S8TJ4CT;
+					};
+					306996E61BE1E7AC00AB96C8 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = JZ7S8TJ4CT;
+					};
+				};
+			};
+			buildConfigurationList = 306996AB1BE1E7AB00AB96C8 /* Build configuration list for PBXProject "SecretVoiceDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306996A71BE1E7AB00AB96C8;
+			productRefGroup = 306996B11BE1E7AB00AB96C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306996AF1BE1E7AB00AB96C8 /* SecretVoiceDiary */,
+				306996C31BE1E7AC00AB96C8 /* SecretVoiceDiaryTests */,
+				306996CE1BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests */,
+				306996D71BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App */,
+				306996E61BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306996AE1BE1E7AB00AB96C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306996BE1BE1E7AB00AB96C8 /* LaunchScreen.storyboard in Resources */,
+				306996BB1BE1E7AB00AB96C8 /* Assets.xcassets in Resources */,
+				306996B91BE1E7AB00AB96C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996C21BE1E7AC00AB96C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996CD1BE1E7AC00AB96C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996D61BE1E7AC00AB96C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306996E11BE1E7AC00AB96C8 /* Assets.xcassets in Resources */,
+				306996DF1BE1E7AC00AB96C8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996E51BE1E7AC00AB96C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306996F71BE1E7AC00AB96C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306996AC1BE1E7AB00AB96C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306996B61BE1E7AB00AB96C8 /* ViewController.swift in Sources */,
+				306996B41BE1E7AB00AB96C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996C01BE1E7AC00AB96C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306996C91BE1E7AC00AB96C8 /* SecretVoiceDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996CB1BE1E7AC00AB96C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306996D41BE1E7AC00AB96C8 /* SecretVoiceDiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306996E31BE1E7AC00AB96C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306996F31BE1E7AC00AB96C8 /* NotificationController.swift in Sources */,
+				306996F11BE1E7AC00AB96C8 /* ExtensionDelegate.swift in Sources */,
+				306996EF1BE1E7AC00AB96C8 /* InterfaceController.swift in Sources */,
+				3069970D1BE1EEBC00AB96C8 /* TableRowObject.swift in Sources */,
+				306996F51BE1E7AC00AB96C8 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306996C61BE1E7AC00AB96C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306996AF1BE1E7AB00AB96C8 /* SecretVoiceDiary */;
+			targetProxy = 306996C51BE1E7AC00AB96C8 /* PBXContainerItemProxy */;
+		};
+		306996D11BE1E7AC00AB96C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306996AF1BE1E7AB00AB96C8 /* SecretVoiceDiary */;
+			targetProxy = 306996D01BE1E7AC00AB96C8 /* PBXContainerItemProxy */;
+		};
+		306996DB1BE1E7AC00AB96C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306996D71BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit App */;
+			targetProxy = 306996DA1BE1E7AC00AB96C8 /* PBXContainerItemProxy */;
+		};
+		306996EA1BE1E7AC00AB96C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306996E61BE1E7AC00AB96C8 /* SecretVoiceDiary WatchKit Extension */;
+			targetProxy = 306996E91BE1E7AC00AB96C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		306996B71BE1E7AB00AB96C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306996B81BE1E7AB00AB96C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		306996BC1BE1E7AB00AB96C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306996BD1BE1E7AB00AB96C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		306996DD1BE1E7AC00AB96C8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306996DE1BE1E7AC00AB96C8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306996F91BE1E7AC00AB96C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		306996FA1BE1E7AC00AB96C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306996FC1BE1E7AC00AB96C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SecretVoiceDiary WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiary.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		306996FD1BE1E7AC00AB96C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SecretVoiceDiary WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiary.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		306997001BE1E7AC00AB96C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = SecretVoiceDiary_WatchKit_Extension;
+				INFOPLIST_FILE = "SecretVoiceDiary WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiary.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		306997011BE1E7AC00AB96C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = SecretVoiceDiary_WatchKit_Extension;
+				INFOPLIST_FILE = "SecretVoiceDiary WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiary.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		306997041BE1E7AC00AB96C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SecretVoiceDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		306997051BE1E7AC00AB96C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SecretVoiceDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		306997071BE1E7AC00AB96C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SecretVoiceDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretVoiceDiary.app/SecretVoiceDiary";
+			};
+			name = Debug;
+		};
+		306997081BE1E7AC00AB96C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SecretVoiceDiaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecretVoiceDiary.app/SecretVoiceDiary";
+			};
+			name = Release;
+		};
+		3069970A1BE1E7AC00AB96C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SecretVoiceDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SecretVoiceDiary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3069970B1BE1E7AC00AB96C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SecretVoiceDiaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tacademy.ios.SecretVoiceDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SecretVoiceDiary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306996AB1BE1E7AB00AB96C8 /* Build configuration list for PBXProject "SecretVoiceDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306996F91BE1E7AC00AB96C8 /* Debug */,
+				306996FA1BE1E7AC00AB96C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306996FB1BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiary WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306996FC1BE1E7AC00AB96C8 /* Debug */,
+				306996FD1BE1E7AC00AB96C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306996FF1BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiary WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306997001BE1E7AC00AB96C8 /* Debug */,
+				306997011BE1E7AC00AB96C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306997031BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306997041BE1E7AC00AB96C8 /* Debug */,
+				306997051BE1E7AC00AB96C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306997061BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306997071BE1E7AC00AB96C8 /* Debug */,
+				306997081BE1E7AC00AB96C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306997091BE1E7AC00AB96C8 /* Build configuration list for PBXNativeTarget "SecretVoiceDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3069970A1BE1E7AC00AB96C8 /* Debug */,
+				3069970B1BE1E7AC00AB96C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306996A81BE1E7AB00AB96C8 /* Project object */;
+}
