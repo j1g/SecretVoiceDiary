@@ -48,14 +48,15 @@ class InterfaceController: WKInterfaceController {
         })
     }
     @IBAction func startRecording() {
-        let path = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0]
-        var url = NSURL(fileURLWithPath: path)
+        var url = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.com.tacademy.ios.SecretVoiceDiary")!
+////        let path = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0]
+//        var url = NSURL(fileURLWithPath: path)
         let formatter = NSDateFormatter()
         formatter.dateFormat = "YYYY.MM.dd.hh.mm.DD"
         let fileName = String(format: "%@.wav", formatter.stringFromDate(NSDate()))
         url = url.URLByAppendingPathComponent(fileName)
 
-        self.presentAudioRecorderControllerWithOutputURL(url, preset: WKAudioRecorderPreset.NarrowBandSpeech, options: nil) { (didSave, error) -> Void in
+        self.presentAudioRecorderControllerWithOutputURL(url, preset: WKAudioRecorderPreset.NarrowBandSpeech, options: [WKAudioRecorderControllerOptionsMaximumDurationKey: NSNumber(integer: 30)]) { (didSave, error) -> Void in
             if let error = error {
                 print("error: \(error)")
                 return
